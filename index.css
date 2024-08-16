@@ -29,6 +29,10 @@
 
 /** header **/
 
+.fa-solid{
+    display: none;
+}
+
 
 .color{
     background-color: black;
@@ -434,6 +438,12 @@ margin-left: 102px;
     .footer-sec,
     .footer-contener{
         flex-direction: column;
+    }
+  .fa-solid{
+    display: block;
+  }
+    .nav-items{
+        display:none;
     }
     .header-img{
         margin-left: -50px;
